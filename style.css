@@ -1,0 +1,135 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+html{
+  font-size: 20px;
+}
+
+.card{
+  margin-top: 50px;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+
+.questionDiv{
+  display: flex;
+  flex-direction: column;
+  background-color: #d0c1e7;
+  min-height: 400px;
+  width: 800px;
+  align-items: center;
+  padding: 50px;
+  border-radius: 15px;
+}
+
+#title{
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+input{
+  position: relative;
+  bottom: 2px;
+  width: 30px;
+  text-align: center;
+}
+
+.longinput{
+    width: 70px;
+}
+
+#answer{
+  margin-bottom: 25px;
+
+}
+
+.option{
+  display: block;
+  font-size: 1rem;
+  cursor: pointer;
+  padding: 10px;
+  margin: 10px;
+  border-radius:20px;
+  text-align:center;
+  background-color: white;
+  border: 3px solid #fff;
+  min-width: 300px;
+}
+
+.option:hover{
+  border: 3px solid #000;
+}
+
+.border{
+  border: 3px solid #000;
+}
+
+#check,
+#resume,
+#nextbtn{
+  cursor: pointer;
+  margin-top: 10px;
+  padding: 5px 8px;
+  font-size: 1rem;
+  background-color: #39a240;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+}
+#resume{
+  margin-top: 30px;
+}
+#totalscore{
+  font-weight: bold;
+  font-size: 2rem;
+  margin: 30px 0 ;
+}
+#check:hover,
+#nextbtn:hover
+#resume:hover{
+  background-color: #266d2b;
+}
+
+#correctanswer{
+  margin-top: 10px;
+  width: 100%;
+  height: auto;
+  background-color: rgba(255, 255, 255, 0.5);
+  color: #000;
+  text-align: center;
+  border: none;
+  border-radius: 5px;
+  padding: 20px;
+}
+
+#correctans{
+  padding-top: 5px;
+  color: green;
+  font-weight: bold;
+}
+
+.none{
+  display: none!important;
+}
+
+.block{
+  padding: 10px;
+  height: 100%;
+  display: block!important;
+}
+
+#demo{
+  font-size: 1.25rem;
+  font-weight: bold;
+  color: green;
+}
+
+.option:focus{
+  border: 3px solid #000;
+}

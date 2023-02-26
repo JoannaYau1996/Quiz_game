@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+  <script src="script.js" defer></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,400&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <h1 style="text-align: center;padding-top: 50px;">Welcome to FEWD6 JavaScript Quiz</h1>
+  <div class="card">
+    <div class="questionDiv">
+      <div id="question">
+        <h3 id="title"></h3>
+      </div>
+      <div id="totalscore"></div>
+      <div id="answer"></div>
+
+      <button onclick="showans(),check(questions[currentquestion])" id="check">check answer</button>
+      <button onclick="start()" id="resume">Restart</button>
+      <div id="correctanswer" class="toggle none">
+        <p id="demo"></p>
+        <p>The correct answer is:</p>
+        <p id="correctans"></p>
+        <button id="nextbtn">next</button>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
